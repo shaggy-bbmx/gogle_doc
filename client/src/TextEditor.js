@@ -30,7 +30,8 @@ const TextEditor = () => {
     const { id: documentId, name } = useParams()
 
     useEffect(() => {
-        const s = io('http://localhost:5000')
+        // const s = io('http://localhost:5000')
+        const s = io('https://gogle-doc-vbr0.onrender.com')
         setSocket(s)
 
         return () => {
