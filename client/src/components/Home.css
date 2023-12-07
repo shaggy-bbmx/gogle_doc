@@ -1,0 +1,62 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    background-image: url('../images/pexels-photo.jpg');
+
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    min-height: 20vh;
+    justify-content: center;
+    width: 100vw;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+    width: 100vw;
+}
+
+.create-btn-box {
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+
+.btn {
+    position: relative;
+    left: 10%;
+    transition: all 0.1;
+    transition-timing-function: linear;
+}
+
+/*  */
+.btn-container {
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px 10px;
+}
+
+.logout-btn {
+    position: relative;
+    height: 60%;
+    left: 0px;
+    transition: all 0.1;
+    transition-timing-function: linear;
+    width: 1%;
+}
+
+
+.table {
+    display: flex;
+    justify-content: center;
+}
+
+.data-table {
+    width: 50vw;
+    height: 100%;
+
+}
